@@ -1,21 +1,66 @@
 # Unsupervised_ML_Capstone_Project
-Zomato_Restaurant_Clustering_And_Sentiment_Analysis_Unsupervised_ML
-Context: Zomato, founded by Deepinder Goyal and Pankaj Chaddah in 2008, is one of India’s leading food delivery and restaurant aggregator platforms. With India's rich culinary diversity and a booming restaurant culture, analyzing Zomato data offers deep insights into food trends, customer preferences, and market potential.
 
-Objective: This project focuses on:
+🍽️ Zomato Restaurant Clustering & Sentiment Analysis (Unsupervised ML)
+This project aims to extract valuable insights from Zomato restaurant data using Unsupervised Machine Learning techniques. It combines clustering analysis to segment restaurants and sentiment analysis to understand customer opinions from reviews.
 
-Understanding customer sentiments through review analysis
+🚀 Project Objectives
+Cluster restaurants based on features such as rating, price range, cuisines, etc.
 
-Performing restaurant clustering based on cost, cuisine, and location
+Analyze customer sentiments from reviews using Natural Language Processing (NLP).
 
-Identifying popular cuisines, top-rated restaurants, and key influencers
+Discover patterns in dining preferences and recommend actionable insights.
 
-📊 Techniques Used:
+🔧 Technologies & Libraries
+Python, Pandas, NumPy, Matplotlib, Seaborn
 
-Natural Language Processing (NLP) for sentiment analysis
+Scikit-learn (KMeans, PCA, Clustering)
 
-K-Means Clustering for grouping restaurants
+NLTK / TextBlob for sentiment analysis
 
-Data visualization and storytelling to present business insights
+Jupyter Notebook
 
-🎯 Outcome: The project helps uncover patterns in customer behavior and restaurant performance, guiding marketing, customer engagement, and strategic business decisions. It can be extended to other cities or integrated with recommendation systems
+📊 Key Features
+✅ Exploratory Data Analysis (EDA) with visual insights
+
+✅ K-Means Clustering to group restaurants
+
+✅ Dimensionality reduction using PCA
+
+✅ Text preprocessing (stopword removal, lemmatization)
+
+✅ Review-based sentiment classification (positive, neutral, negative)
+
+✅ Insights to support business decisions
+
+📁 Project Structure
+cpp
+Copy
+Edit
+├── Zomato_Restaurant_Clustering_And_Sentiment_Analysis_Unsupervised_ML.ipynb
+├── dataset/ (optional: add if you have CSVs)
+└── README.md
+📌 Results & Insights
+Identified top-performing restaurant clusters based on price and ratings
+
+Found customer sentiment trends across different locations and cuisines
+
+Enhanced understanding of customer behavior using textual reviews
+
+📎 How to Run
+Clone this repository
+
+Install dependencies: pip install -r requirements.txt
+
+Run the Jupyter Notebook to explore the full analysis
+
+📬 Contact
+Md Minhaj Noori
+LinkedIn | Email
+
+Would you like me to:
+
+Include badges (e.g. Jupyter, Python version)?
+
+Auto-generate a requirements.txt from your notebook?
+
+Add visuals or graphs from the notebook in the README?
